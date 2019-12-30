@@ -1,0 +1,24 @@
+.navigation {
+	border-top: 2px solid #c5c5c5;
+	padding-top: 25px;
+	flex: 0.8;
+}
+
+.navigation__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation__list__item {
+  margin-bottom: 7px;
+}
+
+.navigation__list__item a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.navigation__list__item__active {
+	color: grey;
+}
