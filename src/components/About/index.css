@@ -5,6 +5,8 @@
 
 .about__logo {
 	width: 45%;
+	border: 1px solid grey;
+	border-radius: 10px;
 }
 
 .about__description {

@@ -7,6 +7,7 @@ import {
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import './App.css';
 
 function App() {
@@ -19,8 +20,11 @@ function App() {
           <div className="app__main__separator" />
           <div className="app__main__route">
             <Switch>
-              <Route path="/">
+              <Route path="/" exact>
                 <About />
+              </Route>
+              <Route path="/portfolio">
+                <Portfolio />
               </Route>
             </Switch>
           </div>
