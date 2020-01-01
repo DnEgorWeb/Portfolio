@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
 import './App.css';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
               </Route>
               <Route path="/portfolio">
                 <Portfolio />
+              </Route>
+              <Route path="/experience">
+                <Experience />
               </Route>
             </Switch>
           </div>

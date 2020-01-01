@@ -1,0 +1,60 @@
+.experience {
+
+}
+
+.experience__description {
+	margin: 0;
+}
+
+.experience__work {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+.experience__work__logo__wrapper {
+	flex: 1;
+}
+
+.experience__work__logo {
+	width: 100%;
+	height: auto;
+}
+
+.experience__work__text {
+	flex: 4;
+	padding-left: 30px;
+	padding-top: 0px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 15px;
+	align-self: stretch;
+}
+
+.experience__work__text__title {
+	margin: 0;
+	font-size: 20px;
+}
+
+.experience__work__text__position {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.experience__work__text__responsibility {
+	margin: 5px 0; 
+}
+
+.experience__work__text__period {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.experience__work__text__link {
+	font-size: 14px;
+	text-align: left;
+	color: #25da25;
+}
