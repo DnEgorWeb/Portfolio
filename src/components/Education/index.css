@@ -1,0 +1,47 @@
+.education {
+
+}
+
+.education__item {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	margin-bottom: 30px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+}
+
+.education__item__logo__wrapper {
+	flex: 1;
+}
+
+.education__item__logo {
+	width: 100%;
+	height: auto;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.education__item__text {
+	flex: 4;
+	padding-left: 30px;
+}
+
+.education__item__text__title {
+	margin: 0;
+}
+
+.education__item__text__faculty {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.education__item__text__specialization {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.experience__work__text__degree {
+	margin-top: 10px;
+	margin-bottom: 0;
+}

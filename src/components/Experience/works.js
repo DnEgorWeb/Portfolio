@@ -22,8 +22,8 @@ export default [
 	{
 		name: "Freelance",
 		description: "Frontend developer",
-		responsibility: "разработка веб приложений (React, Next, Vanilla JS)",
-		period: "November 2016 — august 2017",
+		responsibility: "разработка веб приложений (React, Node, Next, Vanilla JS)",
+		period: "November 2016 — current time",
 		logo: freelanceLogo,
 	},
 ];

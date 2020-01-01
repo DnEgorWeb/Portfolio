@@ -9,6 +9,7 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
+import Education from './components/Education';
 import './App.css';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
               </Route>
               <Route path="/experience">
                 <Experience />
+              </Route>
+              <Route path="/education">
+                <Education />
               </Route>
             </Switch>
           </div>

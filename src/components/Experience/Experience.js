@@ -9,7 +9,7 @@ export default () => (
 		</p>
 		{
 			works.map(work => (
-				<div className="experience__work">
+				<div className="experience__work" key={work.name}>
 					<div className="experience__work__logo__wrapper">
 						<img src={work.logo} className="experience__work__logo" />
 					</div>

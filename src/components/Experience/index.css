@@ -11,6 +11,8 @@
 	flex-direction: row;
 	align-items: flex-start;
 	margin-top: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgrey; 
 }
 
 .experience__work__logo__wrapper {
@@ -30,7 +32,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	align-self: stretch;
 }
 
@@ -40,7 +42,7 @@
 }
 
 .experience__work__text__position {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 0;
 }
 
@@ -50,7 +52,8 @@
 
 .experience__work__text__period {
 	font-size: 14px;
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 0;
 }
 
 .experience__work__text__link {
