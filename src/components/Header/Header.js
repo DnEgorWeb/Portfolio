@@ -21,15 +21,12 @@ export default () => (
         	</p>
         	<div className="header__info__separator" />
         	<p className="header__info__column big">
-        		<span className="header__info__column__description">
-                    Это мой сайт-портфолио,
-                </span>
-                <span className="header__info__column__description">
-                    Здесь вы можете ознакомиться
-                </span>
-                <span className="header__info__column__description">
-                    Со всей необходимой информацией.
-                </span>
+        		<p className="header__info__column__description">
+                    Work
+                </p>
+                <p className="header__info__column__description">
+                    Social
+                </p>
         	</p>
         	<div className="header__info__separator" />
         	<ul className="header__info__column header__info__socialList big">

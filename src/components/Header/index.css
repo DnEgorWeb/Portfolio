@@ -57,7 +57,8 @@
 }
 
 .header__info__column__description {
-	display: inline-block;
+	display: block;
+	margin-top: 0;
 	margin-bottom: 10px;
 }
 

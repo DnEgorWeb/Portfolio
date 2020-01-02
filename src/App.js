@@ -10,6 +10,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Skills from './components/Skills';
 import './App.css';
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
               </Route>
               <Route path="/education">
                 <Education />
+              </Route>
+              <Route path="/skills">
+                <Skills />
               </Route>
             </Switch>
           </div>
