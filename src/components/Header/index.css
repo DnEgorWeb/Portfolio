@@ -1,7 +1,6 @@
 .header__container {
 	padding-top: 20px;
 	padding-bottom: 60px;
-	color: grey;
 }
 
 .header__top {
@@ -16,14 +15,25 @@
 
 .header__top__titles__title {
 	margin: 0;
+	font-size: 40px;
 }
 
 .header__top__titles__subtitle {
-	margin: 10px 0 10px 0;
+	margin-top: 0;
+	margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header__top__titles__lang {
+	font-size: 14px;
+	color: #E1E2E2;
+	cursor: pointer;
 }
 
 .header__top__titles__lang:hover {
-	border-bottom: 1px solid #c5c5c5;
+	color: white;
+	border-bottom: 1px solid white;
 }
 
 .header__top__logo {
@@ -45,7 +55,7 @@
 .header__info__column {
 	margin: 0;
 	padding: 25px 0;
-	border-top: 2px solid #c5c5c5;
+	border-top: 2px solid #FB8122;
 }
 
 .header__info__column.small {
@@ -60,9 +70,21 @@
 	display: block;
 	margin-top: 0;
 	margin-bottom: 10px;
+	color: #E1E2E2;
+}
+
+.header__info__column__description .white {
+	color: white;
+	font-weight: bold;
+}
+
+.header__info__column__description > span {
+	cursor: pointer;
 }
 
 .header__info__socialList {
+	min-height: 100px;
+	padding-bottom: 0px;
 	list-style-type: none;
 }
 
@@ -72,4 +94,25 @@
 
 .header__info__separator {
 	flex: 0.2;
+}
+
+.link {
+	color: #E1E2E2;
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.linkedIn:hover {
+	color: #007bb6;
+}
+
+.github:hover {
+	color: #c9510c;
+}
+
+.headHunter:hover {
+	color: #d6001c;
 }

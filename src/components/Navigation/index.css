@@ -1,5 +1,5 @@
 .navigation {
-	border-top: 2px solid #c5c5c5;
+	border-top: 2px solid #FB8122;
 	padding-top: 25px;
 	flex: 0.8;
 }
@@ -19,6 +19,11 @@
 	font-weight: 500;
 }
 
+.navigation__list__item a:hover {
+	text-decoration: underline;
+	text-decoration-color: #FB8122;
+}
+
 .navigation__list__item__active {
-	color: grey;
+	color: #FB8122;
 }

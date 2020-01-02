@@ -1,13 +1,13 @@
 html {
-	background-color: #f5f5f5;
+	background-color: #1D2228;
 }
 
 a {
-	color: #c5c5c5;
+	color: #E1E2E2;
 }
 
 .app__container {
-	color: grey;
+	color: white;
   padding: 0 10%;
   padding-bottom: 80px;
 }
@@ -23,6 +23,6 @@ a {
 
 .app__main__route {
 	flex: 4.2;
-	border-top: 2px solid #c5c5c5;
+	border-top: 2px solid #FB8122;
 	padding-top: 25px;
 }

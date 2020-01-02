@@ -1,10 +1,11 @@
 .portfolio {
-	color: grey;
+	color: #E1E2E2;
 }
 
 .portfolio__description {
 	margin: 0;
 	line-height: 25px;
+	color: #E1E2E2;
 }
 
 .portfolio__projects {
@@ -31,7 +32,7 @@
 .portfolio__projects__item__img {
 	width: 100%;
 	height: auto;
-	border-radius: 20px;
+	border-radius: 40px;
 	/*cursor: pointer;*/
 }
 
@@ -62,5 +63,5 @@
 .portfolio__projects__item__text__link {
 	font-size: 14px;
 	text-align: left;
-	color: #25da25;
+	color: #FB8122;
 }

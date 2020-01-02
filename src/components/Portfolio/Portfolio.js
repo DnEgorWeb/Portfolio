@@ -14,7 +14,6 @@ export default () => (
 		{
 			projects.map(project => (
 				<div key={project.name} className="portfolio__projects__item">
-					{/* <span>{project.name}</span> */}
 					<a
 					  	href={project.website}
 					  	target="_blank"
