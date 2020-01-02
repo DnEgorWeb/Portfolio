@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +11,7 @@ import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Contacts from './components/Contacts';
 import './App.css';
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
               </Route>
               <Route path="/skills">
                 <Skills />
+              </Route>
+              <Route path="/contacts">
+                <Contacts />
               </Route>
             </Switch>
           </div>

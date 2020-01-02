@@ -11,7 +11,7 @@ export default () => (
 			works.map(work => (
 				<div className="experience__work" key={work.name}>
 					<div className="experience__work__logo__wrapper">
-						<img src={work.logo} className="experience__work__logo" />
+						<img src={work.logo} className="experience__work__logo" alt={work.name} />
 					</div>
 					<div className="experience__work__text">
 						<div>
@@ -30,6 +30,7 @@ export default () => (
 									href={work.website}
 									target="_blank"
 									className="experience__work__text__link"
+									rel="noopener noreferrer"
 								>
 									Перейти на сайт
 								</a>

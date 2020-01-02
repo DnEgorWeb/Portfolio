@@ -19,8 +19,9 @@ export default () => (
 					  	href={project.website}
 					  	target="_blank"
 					  	className="portfolio__projects__item__link"
+					  	rel="noopener noreferrer"
 				  >
-						<img src={project.image} className="portfolio__projects__item__img" />
+						<img src={project.image} className="portfolio__projects__item__img" alt={project.name} />
 					</a>
 					<div className="portfolio__projects__item__text">
 						<div>
@@ -31,6 +32,7 @@ export default () => (
 					  	href={project.website}
 					  	className="portfolio__projects__item__text__link"
 					  	target="_blank"
+					  	rel="noopener noreferrer"
 				  	>
 					  	Перейти в стор
 				  	</a>

@@ -11,6 +11,7 @@ export default () => (
 						<img
 							src={education.image}
 							className="education__item__logo"
+							alt={education.title}
 						/>
 					</div>
 					<div className="education__item__text">

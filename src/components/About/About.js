@@ -4,7 +4,7 @@ import './index.css';
 
 export default () => (
 	<div className="about">
-		<img src={logoWithColor} className="about__logo" />
+		<img src={logoWithColor} className="about__logo" alt="logo" />
 		<div className="about__description">
 			<h4 className="about__description__title">МОБИЛЬНЫЙ РАЗРАБОТЧИК</h4>
 			<p className="about__description__text">

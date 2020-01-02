@@ -13,7 +13,7 @@ export default () => (
 		  	<span className="header__top__titles__lang">Eng</span>&nbsp;
 		  	<span className="header__top__titles__lang">Rus</span>
 	  	</div>
-		  <img src={logoImg} className="header__top__logo" />
+		  <img src={logoImg} className="header__top__logo" alt="" />
 		</div>
         <section className="header__info">
         	<p className="header__info__column small">
