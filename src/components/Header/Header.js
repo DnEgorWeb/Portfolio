@@ -11,7 +11,7 @@ export default () => {
           <div className="header__top__titles">
             <h1 className="header__top__titles__title">Приветствую! Давайте познакомимся.</h1>
             <h2 className="header__top__titles__subtitle">
-                (и, может быть, вместе поработаем.)
+                (и, может быть, вместе поработаем)
             </h2>
             <span className="header__top__titles__lang">Eng</span>&nbsp;
             <span className="header__top__titles__lang">Rus</span>

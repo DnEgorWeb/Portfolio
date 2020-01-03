@@ -18,13 +18,17 @@
 .education__item__logo {
 	width: 100%;
 	height: auto;
-	border: 1px solid grey;
 	border-radius: 10px;
 }
 
 .education__item__text {
 	flex: 4;
 	padding-left: 30px;
+	color: #E1E2E2;
+}
+
+.education__item__text > p > b {
+	color: white;
 }
 
 .education__item__text__title {
