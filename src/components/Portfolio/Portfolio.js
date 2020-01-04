@@ -5,11 +5,11 @@ import './index.css';
 export default () => (
 	<div className="portfolio">
 		<p className="portfolio__description">
-			Здесь можно посмотреть мобильные проекты, которые на данный момент
-			доступны в Google Play / App Store. Некоторые из них доступны как для Android, так и 
-			для iOS, некоторые - лишь для одной системы.<br />
-			Также ниже можно ознакомиться с полным списком мобильных приложений, над которыми я работал.
+			Ниже перечислены приложения, зарелизенные в Google Play / App Store, 
+			open-source проекты, а также приложения, не доступные в мобильных сторах
+			(частные приложения, либо находящиеся на этапе разработки / тестирования).
 		</p>
+		<p className="portfolio__title">STORE APPLICATIONS:</p>
 		<div className="portfolio__projects">
 		{
 			projects.map(project => (
@@ -40,5 +40,33 @@ export default () => (
 			))
 		}
 		</div>
+		<p className="portfolio__title">OPEN SOURCE:</p>
+		<p className="portfolio__openSource">
+			— <a
+					href="https://www.npmjs.com/package/rn-sliding-view"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					rn-sliding-view:</a>&nbsp;
+			библиотека для react-native, позволяющая добавлять анимированные view (aka menu),
+			включая drag'n'drop, кастомные стили, направления, анимации, etc.
+		</p>
+		<p className="portfolio__title">НЕ ВОШЕДШЕЕ В СТОРЫ:</p>
+		<p className="portfolio__noStoreProject">
+			— Zuma Chat: мессенджер с end-to-end шифрованием, поддерживающий чаты 1 - 1, групповые чаты, обмен
+			текстом, аудио-, фото- и видеосообщениями. Приложение разработано для использования заказчиком
+			внутри своей компании. Платформа: Android.
+		</p>
+		<p className="portfolio__noStoreProject">
+			— Radix: крипто-кошелек, поддерживающий покупку / продажу / конвертацию валюты, 
+			встроенный мессенджер, qr-считыватель, оповещения, etc. Платформа: iOS & Android.&nbsp;
+			<a
+				href="https://xorixora.com/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Сайт проекта.
+			</a>
+		</p>
 	</div>
 );
