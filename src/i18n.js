@@ -1,36 +1,14 @@
 import i18n from 'i18next';
-import detector from 'i18next-browser-languagedetector';
+import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-xhr-backend';
 import { initReactI18next } from 'react-i18next';
 
-// the translations
-// (tip move them in a JSON file and import them)
-const resources = {
-  en: {
-    translation: english,
-  },
-  ru: {
-    translation: {
-      "Welcome to React": "Welcome to React and react-i18next"
-    }
-  }
-};
-
 i18n
   .use(Backend)
-  .use(detector)
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
-    resources,
-    lng: "en",
     fallbackLng: "en",
-    whitelist: ["en", "ru"],
-    keySeparator: false,
-    ns: ["common"],
-    react: {
-        wait: true,
-    },
-
     interpolation: {
       escapeValue: false // react already safes from xss
     }

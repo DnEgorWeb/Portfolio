@@ -8,18 +8,13 @@ export default () => {
 
     const changeLanguage = language => i18n.changeLanguage(language);
     const currentLanguage = i18n.languages[0];
-    console.log('currentLanguage', currentLanguage);
-    console.log('title: ', t('header.title'));
-    console.log('title: ', t('title'));
 
     return (
         <header className="header__container">
             <div className="header__top">
               <div className="header__top__titles">
-                <h1 className="header__top__titles__title">Приветствую! Давайте познакомимся.</h1>
-                <h2 className="header__top__titles__subtitle">
-                    (и, может быть, вместе поработаем)
-                </h2>
+                <h1 className="header__top__titles__title">{t('header.title')}</h1>
+                <h2 className="header__top__titles__subtitle">{t('header.subtitle')}</h2>
                 <span
                     onClick={() => changeLanguage('en')}
                     className={`header__top__titles__lang ${currentLanguage === 'en' && 'active'}`}
@@ -37,7 +32,7 @@ export default () => {
             </div>
             <section className="header__info">
                 <p className="header__info__column small">
-                    <span className="header__info__name">ДЕРЯБИН ЕГОР</span>
+                    <span className="header__info__name">{t('header.name')}</span>
                 </p>
                 <div className="header__info__separator" />
                 <div className="header__info__column big">
@@ -64,7 +59,13 @@ export default () => {
                         type === 'Work' ? (
                             <>
                                 <li>
-                                    <a href={'http://linkedin.com'} className="link linkedIn">LinkedIn</a>
+                                    <a
+                                        href='https://www.linkedin.com/in/egor-deriabin-1898b6183'
+                                        className="link linkedIn"
+                                        target="_blank"
+                                    >
+                                        LinkedIn
+                                    </a>
                                 </li>
                                 <li>
                                     <a href={'http://linkedin.com'} className="link github">Github</a>

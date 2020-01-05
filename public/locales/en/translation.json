@@ -1,5 +1,15 @@
 {
 	"header": {
-		"title": "Greetings! Let's get acquainted."
+		"title": "Greetings! Let's get acquainted.",
+		"subtitle": "(and perhaps work together)",
+		"name": "Egor Deryabin"
+	},
+	"navigation": {
+		"about": "About me",
+		"portfolio": "Portfolio",
+		"experience": "Experience",
+		"education": "Education",
+		"skills": "Skills",
+		"contacts": "Contacts"
 	}
 }
