@@ -11,5 +11,8 @@
 		"education": "Education",
 		"skills": "Skills",
 		"contacts": "Contacts"
+	},
+	"about": {
+		"text": "easy"
 	}
 }
