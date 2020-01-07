@@ -21,8 +21,8 @@
 .header__top__titles__subtitle {
 	margin-top: 0;
 	margin-bottom: 10px;
-  font-weight: 600;
-  font-size: 16px;
+  	font-weight: 600;
+  	font-size: 16px;
 }
 
 .header__top__titles__lang {
@@ -52,6 +52,7 @@
 }
 
 .header__info__name {
+	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 2.5px;
 }
@@ -119,4 +120,40 @@
 
 .headHunter:hover {
 	color: #d6001c;
+}
+
+@media only screen  and (min-width : 1224px) {
+	.header__container {
+		padding-top: 40px;
+	}
+
+	.header__top__titles__title {
+		font-size: 45px;
+	}
+
+	.header__top__titles__subtitle {
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-size: 17px;
+	}
+
+	.header__top__titles__lang {
+		font-size: 15px;
+	}
+
+	.header__info__name {
+		font-size: 18px;
+	}
+
+	.header__info__column {
+		padding: 40px 0 25px 0;
+	}
+
+	.header__info__column__description {
+		margin-bottom: 15px;
+	}
+
+	.header__info__socialList li {
+		margin-bottom: 15px;
+	}
 }
