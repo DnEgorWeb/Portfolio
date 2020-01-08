@@ -63,15 +63,30 @@ export default () => {
                                         href='https://www.linkedin.com/in/egor-deriabin-1898b6183'
                                         className="link linkedIn"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         LinkedIn
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={'http://linkedin.com'} className="link github">Github</a>
+                                    <a
+                                        href={'https://github.com/DnEgorWeb'}
+                                        className="link github"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Github
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href={'http://linkedin.com'} className="link headHunter">HH</a>
+                                    <a
+                                        href={'https://hh.ru/resume/89c2aef2ff05b2c9260039ed1f4b486e467833'}
+                                        className="link headHunter"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        HH
+                                    </a>
                                 </li>
                             </>
                         ) : (

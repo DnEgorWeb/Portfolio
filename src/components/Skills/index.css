@@ -12,3 +12,14 @@
 	margin: 5px 0;
 	color: #E1E2E2;
 }
+
+@media only screen  and (min-width : 1224px) {
+	.skills__item__title {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	.skills__item__name {
+		font-size: 17px;
+	}
+}

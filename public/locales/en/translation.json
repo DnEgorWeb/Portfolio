@@ -13,6 +13,88 @@
 		"contacts": "Contacts"
 	},
 	"about": {
-		"text": "easy"
+		"title": "Briefly about myself.",
+		"first__text": "I've been developing applications for the last 4 years. Most part of them — mobile applications. I started my carier as a web developer (mostly frontend part), developing web applications using Vanilla JS, React and NextJS. Later I tried making hybrid mobile applications using Apache Cordova (PhoneGap), but soon I switched to native crossplatform applications on React-Native. At the same time I'm making web applications and native applications for iOS (Swift).",
+		"second__text": "I travel a lot and move often, so usually I'm not bound to single timezone. At this moment I am Lead mobile developer at Integral company (more info in \"Experience\" section). If you real this text probably I am open for new cooperation offers.",
+		"third__text": "You can get acquainted with my works in \"Portfolio\" section. Since I mostly work with mobile applications at the moment, I didn't include my web projects to the list."
+	},
+	"portfolio": {
+		"description": "There is a list below including applications released to Google Play / App Store, open-source projects and also applications unavailable in stores (private applications or being on development / testing stage).",
+		"store_applications": "STORE APPLICATIONS:",
+		"open_source": "OPEN SOURCE:",
+		"not_in_stores": "NOT IN STORES:",
+		"go_to_store": "Go to store",
+		"Hydro Pay": "The first mobile cryptocurrency app to bring simple, fast, and zero fee peer-to-peer (P2P) transactions to the ethereum blockchain.",
+		"Curso De Ingles Gratis": "English courses application that includes grammar, audio lessons and exams. It suits for beginners and intermediate learners.",
+		"Karma (Social App)": "KARMA is a social network application built upon a blockchain. The application intends to encourage people to make goods and earn karma (internal currency).",
+		"Learn Spanish Free": "Spanish courses applications for those who want to get easy way to learn languages. Courses include grammar, audio lessons and exams to check user's knowledge level.",
+		"Amplified Bible": "This Is The Best Bible App and Most Efficient Way to Read & Study The Bible.",
+		"The King James Bible": "The Bible App gives you an improved Bible experience by keeping track of your readings, having instant access to any chapter, adding customized bookmarks and much more.",
+		"La Santa Biblia": "La Santa Biblia designed for those who want to have bible everywhere.",
+		"Santa Biblia en Castellano": "Santa Biblia en Castellano designed for those who want to have bible everywhere.",
+		"Sagrada Biblia": "Sagrada Biblia designed for those who want to have bible everywhere.",
+		"rn_sliding_view_description": "a library for react-native that allows adding animated views (aka menu) including dran'n'drop, custom styles, directions, animations, etc.",
+		"zuma_description": "a messenger implementing end-to-end encrypting, supports 1 - 1 chats, group chats, sharing text, audio, photo and video messages. The app was developed for a customer for private use inside his company.",
+		"radix_description": "crypto-wallet that supports such features as buying, selling, converting currencies, internal messenger, qr-reader, notifications, etc. Platforms: iOS & Android."
+	},
+	"experience": {
+		"description": "Work experience is listed in reverse order (from last to first).",
+		"position": "Position",
+		"responsibility": "Responsibility",
+		"Integral": "leading projects, mobile applications development for iOS and Android, code review.",
+		"RuSoft": "mobile and web applications development",
+		"Freelance": "web applications development (React, Node, Next, Vanilla JS)"
+	},
+	"skills": {
+		"mobile_skills": {
+			"title": "Mobile development",
+			"0": "React-Native, ecosystem of React (hooks, redux, thunks, sagas, apollo, mobX, navigation libs, etc.)",
+			"1": "Swift, ecosystem of iOS-dev",
+			"2": "Testing of code (Jest, enzyme, test-renderer)"
+		},
+		"web_skills": {
+			"title": "Web development",
+			"0": "JavaScript (ES6, ES7), React, patterns",
+			"1": "Testing of code (Jest, enzyme, test-renderer)",
+			"2": "Experience of integration with social networks (API Facebook, Twitter, Paypal, Whatsapp, Gmail), yandex-metrics, google-analytics, etc"
+		},
+		"common_skills": {
+			"title": "Common skills",
+			"0": "Understanding of OOP and functional paradigms",
+			"1": "Experience in supporting legacy code, refactoring and code review",
+			"2": "Algorythms and data structures",
+			"3": "Understanding of git, git-flow working",
+			"4": "Mobile and web development. Backend development (node.js)",
+			"5": "Good understanding of client-server architecture",
+			"6": "Programming languages I have experience with: Swift, Javascript, Java",
+			"7": "English level: upper intermediate"
+		}
+	},
+	"education": {
+		"university": "University",
+		"faculty": "Faculty",
+		"specialization": "Specialization",
+		"degree": "Degree",
+		"0": {
+			"university": "Federal State Budget-Financed Educational Institution of Higher Education The Bonch-Bruevich Saint-Petersburg State University of Telecommunications.",
+			"faculty": "Academy of Management Methods and Technologies",
+			"specialization": "Web technologies",
+			"degree": "Master"
+		},
+		"1": {
+			"university": "The Bonch-Bruevich Saint-Petersburg State University of Telecommunications",
+			"faculty": "Faculty of Infocommunication Networks and Systems",
+			"specialization": "Information Systems and Technologies",
+			"degree": "Bachelor"
+		},
+		"2": {
+			"university": "The Bonch-Bruevich Saint-Petersburg State University of Telecommunications",
+			"faculty": "Faculty of military education",
+			"specialization": "Terrestrial satellite communications",
+			"degree": "Additional higher education"
+		}
+	},
+	"contacts": {
+		"title": "You can message me with the following:"
 	}
 }

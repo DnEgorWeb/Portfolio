@@ -3,7 +3,7 @@ import webSkills from './webSkills';
 import commonSkills from'./commonSkills';
 
 export default {
-	"Мобильная разработка:": mobileSkills,
-	"Веб разработка:": webSkills,
-	"Общее:": commonSkills,
+	"mobile_skills": mobileSkills,
+	"web_skills": webSkills,
+	"common_skills": commonSkills,
 };

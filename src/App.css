@@ -26,3 +26,9 @@ a {
 	border-top: 2px solid #FB8122;
 	padding-top: 25px;
 }
+
+@media only screen  and (min-width : 1224px) {
+	.app__main__route {
+		padding-top: 40px;
+	}
+}

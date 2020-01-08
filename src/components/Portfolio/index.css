@@ -77,3 +77,27 @@
 .portfolio__openSource {
 	
 }
+
+@media only screen  and (min-width : 1224px) {
+	.portfolio__description {
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.portfolio__title {
+		font-size: 19px;
+	}
+
+	.portfolio__projects__item__text__title {
+		font-size: 18px;
+	}
+
+	.portfolio__projects__item__text__description {
+		font-size: 15px;
+	}
+
+	.portfolio__openSource, .portfolio__noStoreProject {
+		font-size: 18px;
+		line-height: 25px;
+	}
+}

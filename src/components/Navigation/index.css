@@ -26,3 +26,14 @@
 .navigation__list__item__active {
 	color: #FB8122;
 }
+
+@media only screen  and (min-width : 1224px) {
+	.navigation {
+		padding-top: 40px;
+	}
+	
+	.navigation__list__item {
+		margin-bottom: 10px;
+		font-size: 17px;
+	}
+}

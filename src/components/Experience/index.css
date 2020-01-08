@@ -47,17 +47,37 @@
 }
 
 .experience__work__text__responsibility {
-	margin: 5px 0; 
+	margin: 5px 0;
+	line-height: 22px;
 }
 
 .experience__work__text__period {
 	font-size: 14px;
 	margin-top: 5px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .experience__work__text__link {
 	font-size: 14px;
 	text-align: left;
 	color: #FB8122;
+}
+
+@media only screen  and (min-width : 1224px) {
+	.experience__description {
+		font-size: 18px;
+	}
+
+	.experience__work__text__position {
+		margin-top: 15px;
+	}
+
+	.experience__work__text__responsibility {
+		line-height: 25px;
+		margin-top: 10px;
+	}
+	
+	.experience__work__text__period {
+		margin-top: 10px;
+	}
 }
