@@ -10,7 +10,8 @@ export default () => {
         i18n.changeLanguage(language);
         document.title = t('page_title');
     }
-    const currentLanguage = i18n.languages[0];
+    
+    const currentLanguage = i18n.languages[0]?.slice(0, 2);    
 
     return (
         <header className="header__container">
