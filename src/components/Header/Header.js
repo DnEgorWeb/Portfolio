@@ -6,7 +6,10 @@ export default () => {
     const { t, i18n } = useTranslation();
     const [type, setType] = useState('Work');
 
-    const changeLanguage = language => i18n.changeLanguage(language);
+    const changeLanguage = language => {
+        i18n.changeLanguage(language);
+        document.title = t('page_title');
+    }
     const currentLanguage = i18n.languages[0];
 
     return (
