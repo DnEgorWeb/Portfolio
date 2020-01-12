@@ -4,6 +4,8 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
+import Loader from 'react-loader-spinner'
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import About from './components/About';
@@ -16,7 +18,21 @@ import './App.css';
 
 function App() {
   return (
-    <Suspense fallback={(<div>Loading</div>)}>
+    <Suspense fallback={(
+      <Loader
+         type="Ball-Triangle"
+         color="#FB8122"
+         height={100}
+         width={100}
+         timeout={3000} //3 secs
+         style={{
+           position: 'absolute',
+           left: '50%',
+           top: '50vh',
+           transform: 'translate(-50%, -50%)'
+          }}
+      />
+    )}>
       <Router>
         <div className="app__container">
           <Header />
