@@ -63,6 +63,16 @@
 	color: #FB8122;
 }
 
+@media only screen  and (max-width : 768px) {
+	.experience__work__logo__wrapper {
+		flex: 3;
+	}
+
+	.experience__work__text {
+		padding-left: 15px;
+	}
+}
+
 @media only screen  and (min-width : 1224px) {
 	.experience__description {
 		font-size: 18px;

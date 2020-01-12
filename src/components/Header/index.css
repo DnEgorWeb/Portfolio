@@ -122,6 +122,49 @@
 	color: #d6001c;
 }
 
+@media only screen  and (max-width : 768px) {
+	.header__container {
+		margin-bottom: 0;
+	}
+
+	.header__top__titles__title {
+		font-size: 26px;
+	}
+
+	.header__top__titles__subtitle {
+		font-size: 13px;
+	}
+
+	.header__top__titles__lang {
+		font-size: 12px;
+	}
+
+	.header__top__titles__lang:hover {
+		color: #FB8122;
+		border-bottom: none;
+	}
+
+	.header__info__separator {
+		flex: 0.5;
+	}
+
+	.header__info {
+		margin-top: 40px;
+	}
+
+	.header__info__name {
+		font-size: 14px;
+	}
+
+	.header__info__column__description {
+		font-size: 14px;
+	}
+
+	.header__info__socialList {
+		font-size: 14px;
+	}
+}
+
 @media only screen  and (min-width : 1224px) {
 	.header__container {
 		padding-top: 40px;

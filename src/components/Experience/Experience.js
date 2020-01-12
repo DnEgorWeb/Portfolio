@@ -34,7 +34,7 @@ export default () => {
 										className="experience__work__text__link"
 										rel="noopener noreferrer"
 									>
-										Перейти на сайт
+										{t('experience.go_to_website')}
 									</a>
 								)
 							}

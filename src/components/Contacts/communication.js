@@ -1,10 +1,14 @@
 export default [
 	{
-		type: "telegram",
+		type: "Telegram",
 		value: "@Dean__1812",
 	},
 	{
-		type: "email",
+		type: "E-mail",
 		value: "egor19942012@gmail.com",
 	},
+	{
+		type: "Whatsapp",
+		value: 89992157535,
+	}
 ];

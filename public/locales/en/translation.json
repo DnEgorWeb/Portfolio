@@ -15,7 +15,7 @@
 	},
 	"about": {
 		"title": "Briefly about myself.",
-		"first__text": "I've been developing applications for the last 4 years. Most part of them — mobile applications. I started my carier as a web developer (mostly frontend part), developing web applications using Vanilla JS, React and NextJS. Later I tried making hybrid mobile applications using Apache Cordova (PhoneGap), but soon I switched to native crossplatform applications on React-Native. At the same time I'm making web applications and native applications for iOS (Swift).",
+		"first__text": "I've been developing applications for the last 4 years. Most part of them — mobile applications. I started my carier as a web developer (mostly frontend part), developing web applications using Vanilla JS, React and NextJS. Later I tried making hybrid mobile applications using Apache Cordova (PhoneGap), but soon I switched to native crossplatform applications on React-Native. Along with that I'm making web applications and native applications for iOS (Swift).",
 		"second__text": "I travel a lot and move often, so usually I'm not bound to single timezone. At this moment I am Lead mobile developer at Integral company (more info in \"Experience\" section). If you real this text probably I am open for new cooperation offers.",
 		"third__text": "You can get acquainted with my works in \"Portfolio\" section. Since I mostly work with mobile applications at the moment, I didn't include my web projects to the list."
 	},
@@ -36,7 +36,8 @@
 		"Sagrada Biblia": "Sagrada Biblia designed for those who want to have bible everywhere.",
 		"rn_sliding_view_description": "a library for react-native that allows adding animated views (aka menu) including dran'n'drop, custom styles, directions, animations, etc.",
 		"zuma_description": "a messenger implementing end-to-end encrypting, supports 1 - 1 chats, group chats, sharing text, audio, photo and video messages. The app was developed for a customer for private use inside his company.",
-		"radix_description": "crypto-wallet that supports such features as buying, selling, converting currencies, internal messenger, qr-reader, notifications, etc. Platforms: iOS & Android."
+		"radix_description": "crypto-wallet that supports such features as buying, selling, converting currencies, internal messenger, qr-reader, notifications, etc. Platforms: iOS & Android.",
+		"radix_website": "Project's website"
 	},
 	"experience": {
 		"description": "Work experience is listed in reverse order (from last to first).",
@@ -44,7 +45,8 @@
 		"responsibility": "Responsibility",
 		"Integral": "leading projects, mobile applications development for iOS and Android, code review.",
 		"RuSoft": "mobile and web applications development",
-		"Freelance": "web applications development (React, Node, Next, Vanilla JS)"
+		"Freelance": "web applications development (React, Node, Next, Vanilla JS)",
+		"go_to_website": "Website"
 	},
 	"skills": {
 		"mobile_skills": {
@@ -96,6 +98,6 @@
 		}
 	},
 	"contacts": {
-		"title": "You can message me with the following:"
+		"title": "You can message me with the following"
 	}
 }

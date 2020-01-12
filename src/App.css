@@ -7,7 +7,7 @@ a {
 }
 
 .app__container {
-	color: white;
+  color: white;
   padding: 0 10%;
   padding-bottom: 80px;
 }
@@ -18,13 +18,28 @@ a {
 }
 
 .app__main__separator {
-	flex:0.2;
+	flex: 0.2;
 }
 
 .app__main__route {
 	flex: 4.2;
 	border-top: 2px solid #FB8122;
 	padding-top: 25px;
+}
+
+@media only screen  and (max-width : 768px) {
+	.app__container {
+		padding: 0 5%;
+	}
+
+	.app__main {
+		flex-direction: column;
+		padding-bottom: 20px;
+	}
+
+	.app__main__separator {
+		flex: 0.5;
+	}
 }
 
 @media only screen  and (min-width : 1224px) {

@@ -61,7 +61,7 @@ export default () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Сайт проекта.
+					{t('portfolio.radix_website')}
 				</a>
 			</p>
 		</div>
