@@ -16,8 +16,9 @@
 	"about": {
 		"title": "Briefly about myself.",
 		"first__text": "I've been developing applications for the last 4 years. Most part of them — mobile applications. I started my carier as a web developer (mostly frontend part), developing web applications using Vanilla JS, React and NextJS. Later I tried to make hybrid mobile applications using Apache Cordova (PhoneGap), but soon I switched to native crossplatform applications on React-Native. Along with that I'm building web applications and native applications for iOS (Swift).",
-		"second__text": "I travel a lot and move often, so usually I'm not bound to single timezone. At this moment I am Lead mobile developer at Integral company (more info in \"Experience\" section). If you real this text probably I am open for new cooperation offers.",
-		"third__text": "You can get acquainted with my works in \"Portfolio\" section. Since I mostly work with mobile applications at the moment, I didn't include my web applications to the list."
+		"second__text": "When making applications I'm focusing on building right architecture, writing qualitative secure code, which can be easily tested, supported and read. If we talk about JavaScript, I definitely use TypeScript or FlowJS for static typing to smooth out dynamic language flaws and make the code more secure and readable.",
+		"third__text": "I travel a lot and move often, so usually I'm not bound to single timezone. At this moment I am Lead mobile developer at Integral company (more info in \"Experience\" section). If you real this text probably I am open for new cooperation offers.",
+		"fourth__text": "You can get acquainted with my works in \"Portfolio\" section. Since I mostly work with mobile applications at the moment, I didn't include my web applications to the list."
 	},
 	"portfolio": {
 		"description": "There is a list below including applications released to Google Play / App Store, open-source projects and also applications unavailable in stores (private applications or being on development / testing stage).",

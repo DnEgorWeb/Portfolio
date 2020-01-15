@@ -14,6 +14,7 @@ export default () => {
 				<p className="about__description__text">{t('about.first__text')}</p>
 				<p className="about__description__text">{t('about.second__text')}</p>
 				<p className="about__description__text">{t('about.third__text')}</p>
+				<p className="about__description__text">{t('about.fourth__text')}</p>
 			</div>
 		</div>
 	);
